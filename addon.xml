@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.bjallerklang"
+       name="Bjällerklang"
+       version="0.1.0"
+       provider-name="Popeye">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Bjällerklang</summary>
+    <summary lang="se">Bjällerklang</summary>
+    <description lang="en">Plays X-mas music from Sveriges Radio P4 channel Bjällerklang</description>
+    <description lang="se">Spelar julmusik från Sveriges Radio P4 Bjällerklang</description>
+    <disclaimer lang="en">Only available until december 28th 2012</disclaimer>
+    <disclaimer lang="se">Bara tillgängligt till och med 28'e december 2012</disclaimer>
+  </extension>
+</addon>
